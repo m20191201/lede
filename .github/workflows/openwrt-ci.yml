@@ -12,10 +12,10 @@ name: OpenWrt-CI
 on:
   schedule:
     - cron: 0 20 * * *
-   push:
-     branches: 
-       - master
-       - release/*
+  # push:
+    # branches: 
+   #    - master
+   #    - release/*
 jobs:
   build:
     runs-on: ubuntu-latest
