@@ -14,9 +14,9 @@ on:
     branches: 
       - master
   # schedule:
-   #  - cron: 0 20 * * *
-   #release:
-    # types: [published]
+  #   - cron: 0 20 * * *
+  # release:
+  #   types: [published]
 
 jobs:
   build:
@@ -197,15 +197,3 @@ jobs:
         with:
           name: OpenWrt firmware
           path: ./artifact/
-© 2019 GitHub, Inc.
-
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
